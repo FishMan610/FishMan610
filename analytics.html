@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endangered Species Analysis</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #0d0d0d;
+            color: #e0e0e0;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #1f1c2c, #928dab);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 1.5em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+        }
+        .subtitle {
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+        main {
+            width: 80%;
+            margin: 40px auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+        }
+        h2 {
+            color: #00d4ff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .analysis-img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+            border: 2px solid #00d4ff;
+            transition: transform 0.3s ease;
+        }
+        .analysis-img:hover {
+            transform: scale(1.05);
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1f1c2c;
+            color: white;
+            margin-top: 30px;
+            font-size: 1em;
+        }
+        @media (max-width: 768px) {
+            main {
+                width: 90%;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Endangered Species Analytics</h1>
+        <p class="subtitle">A Data-Driven Approach to Conservation</p>
+    </header>
+    
+    <main>
+        <section class="intro">
+            <h2>Why Biodiversity Matters</h2>
+            <p>
+                The biodiversity sector is crucial for maintaining ecological balance, supporting food security, and sustaining livelihoods. 
+                It provides essential services like pollination, climate regulation, and medicine. Protecting biodiversity ensures resilience 
+                against environmental changes and prevents species extinction. A healthy ecosystem benefits both nature and human well-being, 
+                making conservation efforts vital.
+            </p>
+        </section>
+        
+        <section class="analysis">
+            <h2>Our Analysis</h2>
+            <img src="output.jpg" alt="Graph Analysis" class="analysis-img">
+            <p>
+                Our data analysis reveals a strong positive correlation between time and the number of vulnerable, endangered, and critically 
+                endangered species across most categories. This suggests that despite conservation efforts, the number of at-risk species continues to rise. 
+                However, certain categories, such as mammals and other invertebrates, show variations in trend patterns, highlighting the need for 
+                category-specific conservation strategies.
+            </p>
+            <p>
+                Interestingly, fungi and protists also show a unique trend, possibly due to a lack of historical data or recent advancements 
+                in species classification. The inverse trend in some categories suggests potential successful conservation efforts or 
+                underreporting in certain species groups.
+            </p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Endangered Species Analytics | Hackathon Prototype</p>
+    </footer>
+</body>
+</html>
